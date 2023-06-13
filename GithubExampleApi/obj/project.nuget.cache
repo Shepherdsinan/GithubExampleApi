@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m+010qti+JM4Yl4zK/kRfiXrwnQbOTdYm/A2T9LNc4YUTnE2AjXCptcnCjEtZX6IEhK7u9nbK1anWwtaIE/xbA==",
+  "dgSpecHash": "6+pfobfEOkTfxxqYGhHoFIG2WTuY4RkYCz8/z5Lstd04Vdyf9lJha4VxIpMHZ2uQvI4+Z0Ca1Bsm1Lenc5YilA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ANEL\\source\\repos\\GithubExampleApi\\GithubExampleApi\\GithubExampleApi.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,11 @@
     "C:\\Users\\ANEL\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\ANEL\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ANEL\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\ANEL\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\ANEL\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\ANEL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\ANEL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\ANEL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\ANEL\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\6.0.15\\microsoft.netcore.app.host.win-x86.6.0.15.nupkg.sha512"
   ],
   "logs": [
     {
