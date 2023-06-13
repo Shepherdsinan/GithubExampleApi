@@ -68,5 +68,29 @@ namespace GithubExampleApi.Controllers
                 }
             }
         }
+
+        [HttpPut]
+        public IActionResult UpdateVisitor(Visitor visitor)
+        {
+            using (var _visitorContext = new VisitorContext())
+            {
+                var values = _visitorContext.Find<Visitor>(visitor.VisitorID);
+                if (values == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    values.Name = visitor.Name;
+                    values.Surname = visitor.Surname;
+                    values.City = visitor.City;
+                    values.Country = visitor.Country;
+                    values.Mail = visitor.Mail;
+                    _visitorContext.Update(values);
+                    _visitorContext.SaveChanges();
+                    return Ok();
+                }
+            }
+        }
     }
 }
